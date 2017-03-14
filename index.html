@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Acme Managers</title>
+    <script src='/dist/bundle.js' defer></script>
+    <link rel='stylesheet' href='/vendor/bootstrap/dist/css/bootstrap.css' />
+  </head>
+  <body>
+    <div class='container'>
+      <h1>Acme Users and Managers</h1>
+      <div class='row'>
+        <div class='col-xs-4'>
+          <h2>Managers</h2>
+          <div id='managersList'>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <h2>Users</h2>
+          <div id='usersList'>
+          </div>
+        </div>
+        <div class='col-xs-4'>
+          <h2>Requirements</h2>
+          <pre>
+repo name
+  acme_users_managers
+server
+  server.js
+  db
+    _conn.js
+    _index.js
+    User.js
+  routes.js
+    GET /
+    GET /api/users
+    GET /api/managers
+    PUT /api/users/:id
+
+  webpack.config.js
+src
+  index.js
+    UsersList.js
+    ManagersList.js
+          </pre>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
